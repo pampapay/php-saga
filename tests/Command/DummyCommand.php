@@ -4,11 +4,13 @@ namespace Pampapay\PhpSaga\Tests\Command;
 
 use Pampapay\PhpSaga\Command\CommandInterface;
 use Pampapay\PhpSaga\Parameters\CommandParamsInterface;
+use Pampapay\PhpSaga\Tests\Dto\TestParamsDto;
 
-class HttpRequestCommand implements CommandInterface
+class DummyCommand implements CommandInterface
 {
     public function __invoke(CommandParamsInterface $params)
     {
-        throw new \LogicException('saraza');
+        /** @var TestParamsDto $params */
+        $params->increaseCounter();
     }
 }

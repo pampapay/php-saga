@@ -5,11 +5,11 @@ namespace Pampapay\PhpSaga\Tests\Command;
 use Pampapay\PhpSaga\Command\CommandInterface;
 use Pampapay\PhpSaga\Parameters\CommandParamsInterface;
 
-class LogCommand implements CommandInterface
+class DummyFailedCommand implements CommandInterface
 {
 
     public function __invoke(CommandParamsInterface $params)
     {
-        echo 'Add log here';
+        throw new \LogicException('Simulating error');
     }
 }
