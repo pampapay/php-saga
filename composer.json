@@ -21,7 +21,7 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": ">=8.1",
+        "php": ">=8.0",
         "doctrine/collections": "^2.1"
     },
     "require-dev": {
