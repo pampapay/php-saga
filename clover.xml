@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1679112793">
-  <project timestamp="1679112793">
+<coverage generated="1679113276">
+  <project timestamp="1679113276">
     <file name="/home/runner/work/php-saga/php-saga/src/Command/CommandInterface.php">
       <metrics loc="10" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
